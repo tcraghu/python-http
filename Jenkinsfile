@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "jenkins-python"
+        label "python"
     }
     environment {
       ORG               = 'tcraghu'
